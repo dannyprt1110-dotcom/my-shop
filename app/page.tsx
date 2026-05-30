@@ -45,11 +45,11 @@ export default function Home() {
             </h2>
 
             <p className="mt-8 text-black/70 leading-8">
-              Heavyweight fabric
+              高磅數純棉洗水
               <br />
-              Oversized fit
+              日本膠印技術
               <br />
-              Streetwear silhouette
+              透氣、設計、質感
               <br />
               Vintage wash texture
             </p>
@@ -91,7 +91,7 @@ export default function Home() {
       <section className="bg-black px-6 md:px-20 py-24">
 
         <h2 className="text-white/40 tracking-[0.3em] uppercase mb-10">
-          LOOKBOOK
+          SMANS-跟著太空貓去探險 高磅TEE
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
