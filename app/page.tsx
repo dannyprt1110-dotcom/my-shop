@@ -13,7 +13,7 @@ export default function Home() {
         <div className="relative z-10 flex flex-col justify-center h-full px-6 md:px-24">
 
           <h1 className="text-5xl md:text-8xl font-black uppercase leading-none">
-            BEST <br /> ARCHIVE
+            SMANS<br /> ARCHIVE
           </h1>
 
           <p className="mt-6 text-white/70 tracking-[0.3em] uppercase">
@@ -21,7 +21,7 @@ export default function Home() {
           </p>
 
           <a
-            href="你的蝦皮網址"
+            href="https://tw.shp.ee/4EYZBJN3"
             target="_blank"
             className="mt-10 w-fit bg-white text-black px-10 py-5 rounded-full text-2xl font-black hover:scale-105 duration-300"
           >
@@ -55,11 +55,11 @@ export default function Home() {
             </p>
 
             <div className="mt-10 text-4xl font-black">
-              NT$ 880
+              NT$ 680
             </div>
 
             <a
-              href="你的蝦皮網址"
+              href="https://tw.shp.ee/4EYZBJN3"
               target="_blank"
               className="inline-block mt-10 bg-black text-white px-10 py-5 rounded-full text-2xl font-black"
             >
@@ -98,17 +98,17 @@ export default function Home() {
 
           <img
             src="/look1.jpg"
-            className="w-full h-[700px] object-cover"
+            className="w-full h-[500px] object-cover"
           />
 
           <img
             src="/look2.jpg"
-            className="w-full h-[700px] object-cover"
+            className="w-full h-[500px] object-cover"
           />
 
           <img
             src="/look3.jpg"
-            className="w-full h-[700px] object-cover"
+            className="w-full h-[500px] object-cover"
           />
 
         </div>
@@ -190,7 +190,7 @@ export default function Home() {
                 </div>
 
                 <div className="py-6 border-r border-black">
-                  72
+                  76cm
                 </div>
 
                 <div className="py-6 border-r border-black">
@@ -198,7 +198,7 @@ export default function Home() {
                 </div>
 
                 <div className="py-6">
-                  23
+                  23.5cm
                 </div>
 
               </div>
@@ -211,7 +211,7 @@ export default function Home() {
                 </div>
 
                 <div className="py-6 border-r border-black">
-                  76
+                  77cm
                 </div>
 
                 <div className="py-6 border-r border-black">
@@ -219,7 +219,7 @@ export default function Home() {
                 </div>
 
                 <div className="py-6">
-                  25
+                  24cm
                 </div>
 
               </div>
@@ -276,7 +276,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
 
           <h2 className="text-3xl font-black uppercase">
-            BEST ARCHIVE
+           Smans ARCHIVE
           </h2>
 
           <p className="mt-6 text-white/60 leading-8">
@@ -343,7 +343,7 @@ export default function Home() {
       <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
 
         <a
-          href="https://myship.7-11.com.tw/"
+          href="https://myship.7-11.com.tw/general/detail/GM2605269991682"
           target="_blank"
           className="bg-orange-500 text-white px-8 py-4 rounded-full text-xl font-black shadow-lg"
         >
@@ -351,7 +351,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://line.me"
+          href="https://lin.ee/7ULkjPK"
           target="_blank"
           className="bg-green-500 text-white px-8 py-4 rounded-full text-xl font-black shadow-lg"
         >
@@ -359,7 +359,7 @@ export default function Home() {
         </a>
 
         <a
-          href="你的蝦皮網址"
+          href="https://tw.shp.ee/4EYZBJN3"
           target="_blank"
           className="bg-white text-black px-10 py-5 rounded-full text-3xl font-black shadow-lg"
         >
