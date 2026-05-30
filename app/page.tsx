@@ -49,9 +49,9 @@ export default function Home() {
               <br />
               日本膠印技術
               <br />
-              透氣、設計、質感
+              oversize 小落肩設計
               <br />
-              Vintage wash texture
+              透氣、設計、質感
             </p>
 
             <div className="mt-10 text-4xl font-black">
@@ -122,7 +122,7 @@ export default function Home() {
         <div>
 
           <h2 className="text-4xl md:text-5xl font-black uppercase mb-12 tracking-[0.2em]">
-            DETAIL
+            DETAIL-獨家訂製洗水面料
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
