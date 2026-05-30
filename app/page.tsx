@@ -121,8 +121,8 @@ export default function Home() {
         {/* DETAIL */}
         <div>
 
-          <h2 className="text-4xl md:text-5xl font-black uppercase mb-12 tracking-[0.2em]">
-            DETAIL-獨家訂製洗水面料
+          <h2 className="text-2xl md:text-3xl font-black uppercase mb-12 tracking-[0.2em]">
+              DETAIL-獨家訂製洗水面料
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
