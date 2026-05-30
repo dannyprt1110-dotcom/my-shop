@@ -90,7 +90,7 @@ export default function Home() {
       {/* LOOKBOOK */}
       <section className="bg-black px-6 md:px-20 py-24">
 
-        <h2 className="text-white/40 tracking-[0.3em] uppercase mb-10">
+        <h2 className="text-2x1 text-white/40 tracking-[0.3em] uppercase mb-10">
           SMANS-跟著太空貓去探險 高磅TEE
         </h2>
 
