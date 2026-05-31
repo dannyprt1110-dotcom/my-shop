@@ -1,3 +1,16 @@
+import hero from "./hero.jpg";
+import front from "./front.jpg";
+import back from "./back.jpg";
+
+import look1 from "./look1.jpg";
+import look2 from "./look2.jpg";
+import look3 from "./look3.jpg";
+
+import detail1 from "./detail1.jpg";
+import detail2 from "./detail2.jpg";
+import detail3 from "./detail3.jpg";
+import detail4 from "./detail4.jpg";
+
 export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen">
@@ -6,7 +19,7 @@ export default function Home() {
       <section className="relative h-screen overflow-hidden">
 
         <img
-          src="/hero.jpg"
+          src={hero.src}
           className="absolute inset-0 w-full h-full object-cover opacity-70"
         />
 
@@ -72,12 +85,12 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-6">
 
             <img
-              src="/front.jpg"
+              src={front.src}
               className="w-full object-cover"
             />
 
             <img
-              src="/back.jpg"
+              src={back.src}
               className="w-full object-cover"
             />
 
@@ -97,17 +110,17 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
           <img
-            src="/look1.jpg"
+            src={look1.src}
             className="w-full h-[500px] object-cover"
           />
 
           <img
-            src="/look2.jpg"
+            src={look2.src}
             className="w-full h-[500px] object-cover"
           />
 
           <img
-            src="/look3.jpg"
+            src={look3.src}
             className="w-full h-[500px] object-cover"
           />
 
@@ -128,22 +141,22 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
 
             <img
-              src="/detail1.jpg"
+              src={detail1.src}
               className="aspect-square object-cover w-full border border-black/10"
             />
 
             <img
-              src="/detail2.jpg"
+              src={detail2.src}
               className="aspect-square object-cover w-full border border-black/10"
             />
 
             <img
-              src="/detail3.jpg"
+              src={detail3.src}
               className="aspect-square object-cover w-full border border-black/10"
             />
 
             <img
-              src="/detail4.jpg"
+              src={detail4.src}
               className="aspect-square object-cover w-full border border-black/10"
             />
 
