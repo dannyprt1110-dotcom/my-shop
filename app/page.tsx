@@ -194,7 +194,7 @@ export default function Home() {
                 </div>
 
                 <div className="py-6 border-r border-black">
-                  60
+                  60cm
                 </div>
 
                 <div className="py-6">
@@ -231,7 +231,7 @@ export default function Home() {
           {/* TRY ON */}
           <div>
 
-            <h2 className="text-4xl md:text-xl font-black uppercase mb-10 tracking-[0.2em]">
+            <h2 className="text-xl md:text-xl font-black uppercase mb-10 tracking-[0.2em]">
               TRY ON
             </h2>
 
