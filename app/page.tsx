@@ -308,9 +308,9 @@ export default function Home() {
               </h3>
 
               <p>
-                LINE : @bestarchive
+                LINE : @123slhaa
                 <br />
-                IG : @bestarchive.tw
+                IG : @smans0620
               </p>
 
             </div>
