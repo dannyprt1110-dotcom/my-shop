@@ -69,27 +69,78 @@ export default function Home() {
           </div>
 
           {/* RIGHT */}
-          <div className="grid grid-cols-2 gap-6">
 
-            <a
-              href="https://tw.shp.ee/UjbmJi69"
-              target="_blank"
-            > 
-             <img
-               src="/front.jpg"
-               className="w-full object-cover hover:scale-105 duration-300"
-               />
-            </a>
+<         div className="grid grid-cols-2 gap-6">
 
-            <a
-              href="https://tw.shp.ee/sPN98Y7m"
-              target="_blank"
-            >
-             <img
-               src="/back.jpg"
-               className="w-full object-cover hover:scale-105 duration-300"
+            <a href="商品網址1" target="_blank" className="overflow-hidden rounded-lg">
+              <img
+                src="/p1.jpg"
+                className="w-full aspect-square object-cover hover:scale-105 duration-300"
               />
             </a>
+            <a href="商品網址2" target="_blank" className="overflow-hidden rounded-lg">
+              <img
+                src="/p2.jpg"
+                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+              />
+            </a>
+
+            <a href="商品網址3" target="_blank" className="overflow-hidden rounded-lg">
+              <img
+                src="/p3.jpg"
+                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+              />
+            </a>
+
+            <a href="商品網址4" target="_blank" className="overflow-hidden rounded-lg">
+              <img
+                src="/p4.jpg"
+                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+              />
+            </a>
+
+            <a href="商品網址5" target="_blank" className="overflow-hidden rounded-lg">
+              <img
+                src="/p5.jpg"
+                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+              />
+            </a>
+            <a href="商品網址6" target="_blank" className="overflow-hidden rounded-lg">
+              <img
+                src="/p6.jpg"
+                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+              />
+            </a>
+
+            <a href="商品網址7" target="_blank" className="overflow-hidden rounded-lg">
+              <img
+                src="/p7.jpg"
+                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+              />
+            </a>
+            <a href="商品網址8" target="_blank" className="overflow-hidden rounded-lg">
+              <img
+                src="/p8.jpg"
+                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+              />
+            </a>
+
+            <a href="商品網址9" target="_blank" className="overflow-hidden rounded-lg">
+              <img
+                src="/p9.jpg"
+                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+              />
+            </a>
+
+            <a href="商品網址10" target="_blank" className="overflow-hidden rounded-lg">
+              <img
+                src="/p10.jpg"
+                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+              />
+            </a>
+
+          
+
 
           </div>
 
