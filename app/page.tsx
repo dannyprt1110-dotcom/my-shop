@@ -71,15 +71,25 @@ export default function Home() {
           {/* RIGHT */}
           <div className="grid grid-cols-2 gap-6">
 
-            <img
-              src="/front.jpg"
-              className="w-full object-cover"
-            />
+            <a
+              href="https://tw.shp.ee/UjbmJi69"
+              target="_blank"
+            > 
+             <img
+               src="/front.jpg"
+               className="w-full object-cover hover:scale-105 duration-300"
+               />
+            </a>
 
-            <img
-              src="/back.jpg"
-              className="w-full object-cover"
-            />
+            <a
+              href="https://tw.shp.ee/sPN98Y7m"
+              target="_blank"
+            >
+             <img
+               src="/back.jpg"
+               className="w-full object-cover hover:scale-105 duration-300"
+              />
+            </a>
 
           </div>
 
