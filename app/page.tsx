@@ -40,7 +40,7 @@ export default function Home() {
           {/* LEFT */}
           <div>
 
-            <h2 className="text-5xl font-black uppercase">
+            <h2 className="text-2xl font-black uppercase">
               Oversized Tee
             </h2>
 
@@ -90,7 +90,7 @@ export default function Home() {
       {/* LOOKBOOK */}
       <section className="bg-black px-6 md:px-20 py-24">
 
-        <h2 className="text-xl  text-white/40 tracking-[0.3em] uppercase mb-10">
+        <h2 className="text-3xl  text-white/40 tracking-[0.3em] uppercase mb-10">
           SMANS-跟著太空貓去探險 高磅TEE
         </h2>
 
@@ -121,7 +121,7 @@ export default function Home() {
         {/* DETAIL */}
         <div>
 
-          <h2 className="text-2xl md:text-3xl font-black uppercase mb-12 tracking-[0.2em]">
+          <h2 className="text-xl md:text-3xl font-black uppercase mb-12 tracking-[0.2em]">
               DETAIL-獨家訂製洗水面料
           </h2>
 
@@ -157,7 +157,7 @@ export default function Home() {
           {/* SIZE */}
           <div>
 
-            <h2 className="text-4xl md:text-5xl font-black uppercase mb-10 tracking-[0.2em]">
+            <h2 className="text-2xl md:text-2xl font-black uppercase mb-10 tracking-[0.2em]">
               SIZE CHART
             </h2>
 
@@ -231,7 +231,7 @@ export default function Home() {
           {/* TRY ON */}
           <div>
 
-            <h2 className="text-4xl md:text-5xl font-black uppercase mb-10 tracking-[0.2em]">
+            <h2 className="text-4xl md:text-xl font-black uppercase mb-10 tracking-[0.2em]">
               TRY ON
             </h2>
 
