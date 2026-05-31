@@ -231,7 +231,7 @@ export default function Home() {
           {/* TRY ON */}
           <div>
 
-            <h2 className="text-xl md:text-xl font-black uppercase mb-10 tracking-[0.2em]">
+            <h2 className="text-base md:text-base  font-black uppercase mb-10 tracking-[0.2em]">
               TRY ON
             </h2>
 
