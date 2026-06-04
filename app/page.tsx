@@ -45,17 +45,17 @@ export default function Home() {
             </h2>
 
             <p className="mt-8 text-black/70 leading-8">
-              高磅數純棉洗水
-              <br />
-              日本膠印技術
+              寬版剪裁長褲系列
               <br />
               oversize 小落肩設計
               <br />
-              透氣、設計、質感
+              高磅數休閒短褲/六分/七分
+              <br />
+              搭配、設計、質感
             </p>
 
             <div className="mt-10 text-4xl font-black">
-              NT$ 680
+              賣場逛逛
             </div>
 
             <a
