@@ -35,24 +35,43 @@ export default function Home() {
       {/* PRODUCT */}
       <section className="bg-white text-black px-6 md:px-20 py-24">
 
-        <div className="max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-10 items-center">
 
           {/* LEFT */}
-          <div className="text-center">
+          <div>
 
-             <h2 className="text-3xl md:text-5xl font-black uppercase">
-              SMANS STORE
-             </h2>
+            <h2 className="text-2xl font-black uppercase">
+              Oversized Tee
+            </h2>
 
-             <p className="mt-6 text-black/70">
-             寬版剪裁長褲系列｜高磅數短褲｜街頭穿搭
-             </p>
+            <p className="mt-8 text-black/70 leading-8">
+              寬版剪裁長褲系列
+              <br />
+              oversize 小落肩設計
+              <br />
+              高磅數休閒短褲/六分/七分
+              <br />
+              搭配、設計、質感
+            </p>
+
+            <div className="mt-10 text-4xl font-black">
+              賣場逛逛
+            </div>
+
+            <a
+              href="https://tw.shp.ee/4EYZBJN3"
+              target="_blank"
+              className="inline-block mt-10 bg-black text-white px-10 py-5 rounded-full text-2xl font-black"
+            >
+              BUY NOW
+            </a>
 
           </div>
+
           {/* RIGHT */}
 
-           <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 gap-6 mt-12">
-            
+           <div className="grid grid-cols-2 gap-6">
+
             <a href="商品網址1" target="_blank" className="overflow-hidden rounded-lg">
               <img
                 src="/p1.jpg"
