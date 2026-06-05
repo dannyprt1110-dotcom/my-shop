@@ -53,12 +53,25 @@ export default function Home() {
 
            <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 gap-6 mt-12">
             
-            <a href="商品網址1" target="_blank" className="overflow-hidden rounded-lg">
+            <div className="overflow-hidden rounded-lg">
+
               <img
                 src="/p1.jpg"
-                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+                className="w-full aspect-square object-cover"
               />
-            </a>
+
+              <button
+                className="w-full bg-black text-white py-3 font-bold mt-2"
+              >
+                加入購物車
+              </button>
+
+            </div>
+
+
+
+
+          
             <a href="商品網址2" target="_blank" className="overflow-hidden rounded-lg">
               <img
                 src="/p2.jpg"
