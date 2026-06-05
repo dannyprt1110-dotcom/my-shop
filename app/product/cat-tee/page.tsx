@@ -16,6 +16,7 @@ import detail4 from "./detail4.jpg";
 
 export default function Home() {
   const [size, setSize] = useState("L");
+  const [qty, setQty] = useState(1);
   return (
     <main className="bg-black text-white min-h-screen">
 
@@ -90,6 +91,38 @@ export default function Home() {
                 <option>L</option>
                 <option>XL</option>
               </select>
+
+            </div>
+
+            <div className="mt-6">
+
+              <p className="font-black mb-2">
+                數量
+              </p>
+
+              <div className="flex items-center gap-4">
+
+                <button
+                  onClick={() =>
+                    setQty(Math.max(1, qty - 1))
+                  }
+                  className="border px-4 py-2"
+                >
+                  -
+                </button>
+
+                <span className="text-2xl font-black">
+                  {qty}
+                </span>
+
+                <button
+                  onClick={() => setQty(qty + 1)}
+                  className="border px-4 py-2"
+                >
+                  +
+                </button>
+
+              </div>
 
             </div>
 
