@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 export default function Home() {
   const [cartCount, setCartCount] = useState(0);
-
+  const [size, setSize] = useState("L");
 useEffect(() => {
   const cart = JSON.parse(
     localStorage.getItem("cart") || "[]"
@@ -96,11 +96,19 @@ useEffect(() => {
                 src="/p1.jpg"
                 className="w-full aspect-square object-cover"
               />
-
+              <select
+                value={size}
+                onChange={(e) => setSize(e.target.value)}
+                className="w-full border p-2 mt-2 text-black"
+              >
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+              </select>
               <button
                   onClick={() =>
                     addToCart(
-                      "商品1",
+                      `商品1 (${size})`,
                       680,
                       "/p1.jpg"
                     )
