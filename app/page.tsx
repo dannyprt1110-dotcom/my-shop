@@ -1,5 +1,15 @@
 "use client";
+import { useEffect, useState } from "react";
 export default function Home() {
+  const [cartCount, setCartCount] = useState(0);
+
+useEffect(() => {
+  const cart = JSON.parse(
+    localStorage.getItem("cart") || "[]"
+  );
+
+  setCartCount(cart.length);
+}, []);
   const addToCart = (
     name: string,
     price: number,
@@ -21,6 +31,7 @@ export default function Home() {
       "cart",
       JSON.stringify(cart)
     );
+    setCartCount(cart.length);
 
     alert("已加入購物車");
   };
@@ -104,12 +115,28 @@ export default function Home() {
 
 
           
-            <a href="商品網址2" target="_blank" className="overflow-hidden rounded-lg">
+            <div className="overflow-hidden rounded-lg">
+
               <img
                 src="/p2.jpg"
-                className="w-full aspect-square object-cover hover:scale-105 duration-300"
+                className="w-full aspect-square object-cover"
               />
-            </a>
+
+              <button
+                  onClick={() =>
+                    addToCart(
+                      "商品2",
+                      750,
+                      "/p2.jpg"
+                    )
+                  }
+                  className="w-full bg-black text-white py-3 font-bold mt-2"
+              >
+                  加入購物車
+              </button>
+            </div>
+
+
 
             <a href="商品網址3" target="_blank" className="overflow-hidden rounded-lg">
               <img
@@ -322,7 +349,7 @@ export default function Home() {
            href="/cart"
            className="bg-black text-white px-8 py-4 rounded-full text-xl font-black shadow-lg"
         >
-          購物車
+           🛒 購物車({cartCount})
         </a>
         <a
           href="https://myship.7-11.com.tw/general/detail/GM2605269991682"
