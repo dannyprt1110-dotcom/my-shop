@@ -29,7 +29,7 @@ export default function CartPage() {
   };
 
   const total = cart.reduce(
-    (sum, item) => sum + item.price,
+    (sum, item) => sum + item.price * item.qty,
     0
   );
 
@@ -63,12 +63,24 @@ export default function CartPage() {
 
                 <div className="flex-1">
 
-                  <p className="font-black">
+                  <p className="font-black text-lg">
                     {item.name}
                   </p>
 
                   <p>
-                    NT$ {item.price}
+                    尺寸：{item.size}
+                  </p>
+
+                  <p>
+                    數量：{item.qty}
+                  </p>
+
+                  <p>
+                    單價：NT$ {item.price}
+                  </p>
+
+                  <p className="font-bold">
+                    小計：NT$ {item.price * item.qty}
                   </p>
 
                 </div>
