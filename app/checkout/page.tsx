@@ -10,12 +10,38 @@ export default function CheckoutPage() {
 
   const sendOrder = () => {
 
-    const message = `
+    const cart = JSON.parse(
+  localStorage.getItem("cart") || "[]"
+);
+
+const products = cart
+  .map(
+    (item: any) =>
+      `${item.name}
+尺寸：${item.size}
+數量：${item.qty}
+`
+  )
+  .join("\n");
+
+const total = cart.reduce(
+  (sum: number, item: any) =>
+    sum + item.price * item.qty,
+  0
+);
+
+const message = `
 新訂單
 
 姓名：${name}
 
 電話：${phone}
+
+商品：
+
+${products}
+
+總金額：NT$${total}
 
 收件資訊：
 ${address}
