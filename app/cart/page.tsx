@@ -102,6 +102,12 @@ export default function CartPage() {
 
             <div className="text-3xl font-black">
               總金額：NT$ {total}
+              <a
+                href="/checkout"
+                className="block mt-6 bg-black text-white text-center py-4 rounded-xl font-black"
+              >
+                前往結帳
+              </a>
             </div>
 
           </div>
