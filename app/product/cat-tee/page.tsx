@@ -16,7 +16,30 @@ import detail4 from "./detail4.jpg";
 
 export default function Home() {
   const [size, setSize] = useState("L");
+
   const [qty, setQty] = useState(1);
+
+  const addToCart = () => {
+
+  const cart = JSON.parse(
+    localStorage.getItem("cart") || "[]"
+  );
+
+  cart.push({
+    name: "太空貓TEE",
+    price: 680,
+    image: front.src,
+    size,
+    qty,
+  });
+
+  localStorage.setItem(
+    "cart",
+    JSON.stringify(cart)
+  );
+
+  alert("已加入購物車");
+  };
   return (
     <main className="bg-black text-white min-h-screen">
 
@@ -38,13 +61,12 @@ export default function Home() {
             STREETWEAR / UNDERGROUND / CULTURE
           </p>
 
-          <a
-            href="https://tw.shp.ee/4EYZBJN3"
-            target="_blank"
-            className="mt-10 w-fit bg-white text-black px-10 py-5 rounded-full text-2xl font-black hover:scale-105 duration-300"
+          <button
+           onClick={addToCart}
+           className="inline-block mt-10 bg-black text-white px-10 py-5 rounded-full text-2xl font-black"
           >
-            BUY NOW
-          </a>
+           加入購物車
+          </button>
 
         </div>
 
@@ -126,13 +148,12 @@ export default function Home() {
 
             </div>
 
-            <a
-              href="https://tw.shp.ee/4EYZBJN3"
-              target="_blank"
+            <button
+              onClick={addToCart}
               className="inline-block mt-10 bg-black text-white px-10 py-5 rounded-full text-2xl font-black"
             >
-              BUY NOW
-            </a>
+              加入購物車
+            </button>
 
           </div>
 
