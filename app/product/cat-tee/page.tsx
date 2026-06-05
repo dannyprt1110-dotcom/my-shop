@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import hero from "./hero.jpg";
 import front from "./front.jpg";
 import back from "./back.jpg";
@@ -12,6 +15,7 @@ import detail3 from "./detail3.jpg";
 import detail4 from "./detail4.jpg";
 
 export default function Home() {
+  const [size, setSize] = useState("L");
   return (
     <main className="bg-black text-white min-h-screen">
 
@@ -69,6 +73,24 @@ export default function Home() {
 
             <div className="mt-10 text-4xl font-black">
               NT$ 680
+            </div>
+
+            <div className="mt-6">
+
+              <p className="font-black mb-2">
+                尺寸
+              </p>
+
+              <select
+                value={size}
+                onChange={(e) => setSize(e.target.value)}
+                className="border p-3 w-full text-black"
+              >
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+              </select>
+
             </div>
 
             <a
