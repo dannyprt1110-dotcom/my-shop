@@ -273,7 +273,12 @@ export default function Home() {
 
       {/* FLOAT BUTTON */}
       <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
-
+        <a
+           href="/cart"
+           className="bg-black text-white px-8 py-4 rounded-full text-xl font-black shadow-lg"
+        >
+          購物車
+        </a>
         <a
           href="https://myship.7-11.com.tw/general/detail/GM2605269991682"
           target="_blank"
