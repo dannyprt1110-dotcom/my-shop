@@ -1,4 +1,30 @@
+"use client";
 export default function Home() {
+  const addToCart = (
+    name: string,
+    price: number,
+    image: string
+  ) => {
+
+    const cart = JSON.parse(
+      localStorage.getItem("cart") || "[]"
+    );
+
+    cart.push({
+      name,
+      price,
+      image,
+      qty: 1,
+    });
+
+    localStorage.setItem(
+      "cart",
+      JSON.stringify(cart)
+    );
+
+    alert("已加入購物車");
+  };
+
   return (
     <main className="bg-black text-white min-h-screen">
 
@@ -61,11 +87,17 @@ export default function Home() {
               />
 
               <button
-                className="w-full bg-black text-white py-3 font-bold mt-2"
+                  onClick={() =>
+                    addToCart(
+                      "商品1",
+                      680,
+                      "/p1.jpg"
+                    )
+                  }
+                  className="w-full bg-black text-white py-3 font-bold mt-2"
               >
-                加入購物車
+                  加入購物車
               </button>
-
             </div>
 
 
